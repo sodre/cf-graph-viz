@@ -22,7 +22,7 @@ description:
 # Use `anaconda-project add-command` to add commands.
 #
 commands:
-  notebook:
+  cf-graph-viz.ipynb:
     unix: jupyter notebook
     env_spec: default
 
