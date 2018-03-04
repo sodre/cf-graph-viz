@@ -35,5 +35,5 @@ def on_server_unloaded(server_context):
 def on_session_created(server_context):
     print('New session')
 
-def on_server_destroyed(server_context):
+def on_session_destroyed(server_context):
     print('Session destroyed')

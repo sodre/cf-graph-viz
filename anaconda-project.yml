@@ -54,12 +54,15 @@ downloads:
 # Use `anaconda-project add-packages` to add packages.
 #
 packages:
-- anaconda
 - holoviews
 - colorcet
 - datashader
 - dask
 - distributed
+- networkx
+- python=3.6
+- bokeh
+- scikit-image
 #
 # In the channels section, list any Conda channel URLs to be searched
 # for packages.
