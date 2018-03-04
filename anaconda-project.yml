@@ -22,6 +22,10 @@ description:
 # Use `anaconda-project add-command` to add commands.
 #
 commands:
+  cf-graph-viz:
+    bokeh_app: cf-graph-viz
+    env_spec: default
+
   cf-graph-viz.ipynb:
     unix: jupyter notebook
     env_spec: default
